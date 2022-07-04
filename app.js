@@ -13,6 +13,9 @@ $(function () {
       introH = intro.innerHeight()//Перезаписываем размер интро при изминение экрана пользователя
       scrollPos = $(this).scrollTop()
 
+
+
+      
       if (scrollPos > introH) {
          header.addClass('fixed')//Добавляем класс елементу 
       } else {
